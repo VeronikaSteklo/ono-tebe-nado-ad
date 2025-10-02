@@ -8,6 +8,7 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  padding: 0;
 }
 
 h1,
@@ -33,6 +34,6 @@ img {
   width: 100%;
 }
 
-button {
-  font: inherit;
-}
+/*button {*/
+/*  font: inherit;*/
+/*}*/
