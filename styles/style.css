@@ -37,7 +37,7 @@
   padding: 0 0 3px;
 }
 
-.header__links-list-item:not(.header__links-list-item_no-bullit)::before {
+.header__links-list-item::before {
   content: "○";
   margin-right: 12.48px;
   font-size: 0.7em;

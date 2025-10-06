@@ -13,13 +13,13 @@
 <header class="header">
   <nav class="header__menu">
     <ul class="header__links-list">
-      <li class="header__links-list-item header__links-list-item_no-bullit"><a href="#">главная</a></li>
-      <li class="header__links-list-item"><a href="#">посмотреть лоты</a></li>
-      <li class="header__links-list-item"><a href="#">об аукционе</a></li>
+      <li class="header__links-list-item header__links-list-item_no-bullit"><a href="#main">главная</a></li>
+      <li class="header__links-list-item"><a href="#lots">посмотреть лоты</a></li>
+      <li class="header__links-list-item"><a href="#about">об аукционе</a></li>
     </ul>
   </nav>
 
-  <a class="header__logo">
+  <a class="header__logo" href="#main">
     <img src="images/logo-black.svg" alt="Логотип аукциона Оно тебе надо" class="header__logo-img"/>
   </a>
   <section class="header__address">
@@ -29,7 +29,7 @@
   </section>
 </header>
 
-<main>
+<main id="main">
   <section class="cover">
     <div class="overlay"></div>
     <h1 class="cover__title">
@@ -43,7 +43,7 @@
     </div>
   </section>
 
-  <section class="lots">
+  <section class="lots" id="lots">
     <h2 class="lots__heading">Лоты</h2>
     <ul class="lots__card-list">
       <li class="lots__card-list-item">
@@ -95,7 +95,7 @@
     <a class="lots__look-more-link" href="#">посмотреть больше</a>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="about__column">
       <div class="about__logo">
         <img src="images/logo-white.svg" alt="Логотип аукциона Оно тебе надо" class="about__logo-image"/>
@@ -129,13 +129,13 @@
   <nav class="footer__menu">
     <ul class="footer__menu-list">
       <li class="footer__menu-list-item">
-        <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
+        <a href="#main" class="footer__menu-link footer__menu-link_active">главная</a>
       </li>
       <li class="footer__menu-list-item">
-        <a href="#" class="footer__menu-link">посмотреть лоты</a>
+        <a href="#lots" class="footer__menu-link">посмотреть лоты</a>
       </li>
       <li class="footer__menu-list-item">
-        <a href="#" class="footer__menu-link">об аукционе</a>
+        <a href="#about" class="footer__menu-link">об аукционе</a>
       </li>
     </ul>
   </nav>
